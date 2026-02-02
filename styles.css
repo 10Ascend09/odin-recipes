@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(231, 221, 221);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+}
+nav {
+    display: flex;
+    background-color: rgb(99, 94, 94);
+    border: solid 2px rgb(119, 24, 24);
+    border-radius: 16px;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    align-content: center;
+    background-color: rgb(150, 53, 53);
+    border-radius: 8px;
+    border: solid 1px;
+}
+nav h1 {
+    margin: 10px;
+    align-content: center;
+}
+.homeNav {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    align-content: center;
+    background-color: rgb(150, 53, 53);
+    border-radius: 8px;
+    border: solid 1px;
+    width: 10%;
+}
+img {
+    margin: 16px;
+}
+h1.subPage {
+   color: rgb(58, 31, 31);
+   margin: 16px;
+   border: solid 2px rgb(150, 53, 53);
+   border-left: 0;
+   border-right: 0;
+   width: 100%;
+}
+div.recipeContent {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.recipeContent h2 {
+    padding: 8px;
+    margin: 8px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+div.recipeContent p {
+    margin: 8px;
+}
+
+div.recipeContent ul {
+    display: block;
+}
+
+div.recipeContent ul li {
+    /* border: solid 1px; */
+    margin: 8px;
+    padding: 4px;
+
+}
+div.recipeContent ol li {
+    /* border: solid 1px; */
+    margin: 8px;
+    padding: 8px;
+}
